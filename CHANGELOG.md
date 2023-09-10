@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/deployn/astro-phase/compare/v1.1.0...v1.2.0) (2023-09-10)
+
+
+### Features
+
+* add tailwind support ([872c460](https://github.com/deployn/astro-phase/commit/872c460b685ca080244819e6314efaa17baa6512))
+
 # [1.1.0](https://github.com/deployn/astro-phase/compare/v1.0.0...v1.1.0) (2023-09-10)
 
 
