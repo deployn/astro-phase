@@ -8,7 +8,7 @@ const config = {
 	trailingComma: 'es5',
 	useTabs: true,
 	endOfLine: 'lf',
-	plugins: ['prettier-plugin-astro'],
+	plugins: ['prettier-plugin-astro', 'prettier-plugin-tailwindcss'],
 	overrides: [
 		{
 			files: ['.*', '*.json', '*.md', '*.toml', '*.yml'],
