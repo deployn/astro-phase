@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/deployn/astro-phase/compare/v1.0.0...v1.1.0) (2023-09-10)
+
+
+### Features
+
+* add prettier support and configure settings ([a75454e](https://github.com/deployn/astro-phase/commit/a75454e0cce9998c53cebf2170974624cb5a0a94))
+
 # 1.0.0 (2023-09-10)
 
 
