@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/deployn/astro-phase/compare/v1.3.0...v1.3.1) (2023-09-10)
+
+
+### Bug Fixes
+
+* **prettier:** remove default formatter for astro files ([7d5ba51](https://github.com/deployn/astro-phase/commit/7d5ba5101dde5e81e4a4e058b9ef7630f2136551))
+* remove accidently added deps ([e0c2c45](https://github.com/deployn/astro-phase/commit/e0c2c4519b5400435bc0e90cfd8731f0448a638f))
+
 # [1.3.0](https://github.com/deployn/astro-phase/compare/v1.2.0...v1.3.0) (2023-09-10)
 
 
