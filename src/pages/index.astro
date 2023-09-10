@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
+import ReactComponent from '../components/ReactComponent'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -35,8 +36,12 @@ import Card from '../components/Card.astro'
         </linearGradient>
       </defs>
     </svg>
-    <h1 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
-      Welcome to Astro
-    </h1>
+    <div>
+      <h1 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+        Welcome to Astro
+      </h1>
+
+      <ReactComponent client:load />
+    </div>
   </main>
 </Layout>
