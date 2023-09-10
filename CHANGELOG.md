@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/deployn/astro-phase/compare/v1.2.0...v1.3.0) (2023-09-10)
+
+
+### Features
+
+* add react support ([fc41376](https://github.com/deployn/astro-phase/commit/fc413767155fec876f0dfcd4d007bded5910bbcb))
+
 # [1.2.0](https://github.com/deployn/astro-phase/compare/v1.1.0...v1.2.0) (2023-09-10)
 
 
