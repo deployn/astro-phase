@@ -1,24 +1,52 @@
-import React, { useState } from 'react'
+import { useState } from 'react';
 
 const ReactComponent = () => {
-  const [state, setState] = useState('')
+	const [state, setState] = useState('');
+	const [isInputVisible, setInputVisibility] = useState(true);
 
-  return (
-    <>
-      <div className="mt-8 text-center text-2xl font-bold text-gray-700">
-        This is a React Component
-      </div>
-      <div className="flex justify-center">
-        <button
-          onClick={() => setState('Hello World')}
-          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 focus:outline-none"
-        >
-          Click Me
-        </button>
-      </div>
-      <div className="text-center mt-4 text-xl text-gray-700">{state}</div>
-    </>
-  )
-}
+	const handleClear = () => {
+		setState('');
+	};
 
-export default ReactComponent
+	const handleInputChange = (event: any) => {
+		setState(event.target.value);
+	};
+
+	const toggleInputVisibility = () => {
+		setInputVisibility(!isInputVisible);
+	};
+
+	return (
+		<div className="m-4 mt-8 border p-4">
+			<div className="mt-2 text-center text-2xl font-bold text-gray-700">
+				This is a React Component
+			</div>
+
+			<div className="my-4 flex flex-col justify-center gap-4 md:flex-row">
+				<input
+					type={isInputVisible ? 'text' : 'password'}
+					value={state}
+					onChange={handleInputChange}
+					className="mr-2 rounded-md border px-4 py-2 focus:outline-none"
+					placeholder="Type a message..."
+				/>
+				<button
+					onClick={toggleInputVisibility}
+					className="mr-2 rounded-md bg-blue-500 px-4 py-2 text-white hover:bg-blue-700 focus:outline-none"
+				>
+					Toggle Visibility
+				</button>
+				<button
+					onClick={handleClear}
+					className="rounded-md bg-red-500 px-4 py-2 text-white hover:bg-red-700 focus:outline-none"
+					disabled={!state}
+				>
+					Clear Message
+				</button>
+			</div>
+			<div className="mt-4 text-center text-xl text-gray-700">{state}</div>
+		</div>
+	);
+};
+
+export default ReactComponent;
