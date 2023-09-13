@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/deployn/astro-phase/compare/v1.3.1...v1.4.0) (2023-09-13)
+
+
+### Features
+
+* add darkmode ([d6c51a5](https://github.com/deployn/astro-phase/commit/d6c51a5c28a1c87db7e2d330395f3d9cf21c7f44))
+
 ## [1.3.1](https://github.com/deployn/astro-phase/compare/v1.3.0...v1.3.1) (2023-09-10)
 
 
