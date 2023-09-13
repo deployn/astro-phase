@@ -18,7 +18,7 @@ const ReactComponent = () => {
 
 	return (
 		<div className="m-4 mt-8 border p-4">
-			<div className="mt-2 text-center text-2xl font-bold text-gray-700">
+			<div className="mt-2 text-center text-2xl font-bold text-gray-700 dark:text-gray-300">
 				This is a React Component
 			</div>
 
@@ -27,7 +27,7 @@ const ReactComponent = () => {
 					type={isInputVisible ? 'text' : 'password'}
 					value={state}
 					onChange={handleInputChange}
-					className="mr-2 rounded-md border px-4 py-2 focus:outline-none"
+					className="mr-2 rounded-md border px-4 py-2 focus:outline-none dark:bg-gray-800 dark:text-white"
 					placeholder="Type a message..."
 				/>
 				<button
@@ -44,7 +44,7 @@ const ReactComponent = () => {
 					Clear Message
 				</button>
 			</div>
-			<div className="mt-4 text-center text-xl text-gray-700">{state}</div>
+			<div className="mt-4 text-center text-xl text-gray-700 dark:text-gray-300">{state}</div>
 		</div>
 	);
 };
