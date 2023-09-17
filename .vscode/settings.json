@@ -1,5 +1,7 @@
 {
-  "prettier.documentSelectors": ["**/*.astro"],
+  "prettier.documentSelectors": [
+    "**/*.astro"
+  ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "eslint.enable": true,
@@ -7,5 +9,8 @@
   /*  "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
   }, */
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    "*.mdx": "markdown"
+  }
 }
