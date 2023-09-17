@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/deployn/astro-phase/compare/v1.4.0...v1.5.0) (2023-09-17)
+
+
+### Features
+
+* add mdx support ([113e32f](https://github.com/deployn/astro-phase/commit/113e32fd3c74a3a6b1485a67dc7ebff812433c40))
+
 # [1.4.0](https://github.com/deployn/astro-phase/compare/v1.3.1...v1.4.0) (2023-09-13)
 
 
