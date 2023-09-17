@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/deployn/astro-phase/compare/v1.5.0...v2.0.0) (2023-09-17)
+
+
+### deps
+
+* update dependencies ([0a1607e](https://github.com/deployn/astro-phase/commit/0a1607e8116b938ef9875348be5119e07f2efc79))
+
+
+### BREAKING CHANGES
+
+* semantic-release requires at least node v18.17
+
 # [1.5.0](https://github.com/deployn/astro-phase/compare/v1.4.0...v1.5.0) (2023-09-17)
 
 
